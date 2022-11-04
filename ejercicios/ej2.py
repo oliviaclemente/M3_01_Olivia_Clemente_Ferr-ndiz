@@ -1,1 +1,2 @@
-def __str__(self): 
+def __str__(self,nombre,nota): 
+  
