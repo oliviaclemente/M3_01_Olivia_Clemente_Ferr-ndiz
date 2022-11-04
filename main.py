@@ -1,16 +1,18 @@
-class Producto:
-  def constructor(self, codigo, nombre, precio, tipo):
-    self.codigo=codigo
+class Alumno:
+  def constructor(self, nombre, nota):
     self.nombre= nombre
-    self.precio=precio
-    self.tipo=tipo
+    self.nota=nota
   def mostrar(self):
-    print("Codigo:",self.codigo)
     print("Nombre:",self.nombre)
-    print("Precio:",self.precio)
-    print("Tipo:",self.tipo)
-  def cons(self):
-    print("El producto se ha creado con éxito")
+    print("Nota:",self.nota)
+  def _str_calificacion(self): 
+    return"Lo que quiero mostar"
 
-def _str_(self, codigo, nombre, precio, tipo):
-  return("{self}, {codigo}, {nombre}, {precio}, {tipo}")
+    
+alumno1=Alumno()
+alumno1.constructor("Lau",9)
+alumno1.mostrar()
+
+alumno2=Alumno()
+alumno2.constructor("Juls",4)
+alumno2.mostrar()
