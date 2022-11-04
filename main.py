@@ -19,3 +19,5 @@ producto1.mostrar()
 producto1=Producto()
 producto1.constructor("C3CT", "Tellinas", 40, "Mediterraneas")
 producto1.mostrar()
+
+print(producto1.strip("C45T", "Gambas", 100, "Roja"))
