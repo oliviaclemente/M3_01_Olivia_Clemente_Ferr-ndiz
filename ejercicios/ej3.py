@@ -11,4 +11,6 @@ class Producto:
     print("Tipo:",self.tipo)
   def cons(self):
     print("El producto se ha creado con éxito")
-  def__str__
+
+def _str_(self, codigo, nombre, precio, tipo):
+  return("{self}, {codigo}, {nombre}, {precio}, {tipo}")
